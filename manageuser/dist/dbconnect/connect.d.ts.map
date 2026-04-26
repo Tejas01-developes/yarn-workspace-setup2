@@ -1,0 +1,1 @@
+{"version":3,"file":"connect.d.ts","sourceRoot":"","sources":["../../src/dbconnect/connect.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,EAAE,EAAe,MAAM,SAAS,CAAC;AAIzC,cAAM,SAAS;IACZ,OAAO,CAAC,MAAM,CAAY;IAC1B,OAAO,CAAC,QAAQ,CAAI;;IAMf,OAAO;IAUhB,KAAK,IAAG,EAAE;CAQT;;AACD,wBAA+B"}

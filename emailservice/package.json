@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/emailservice",
+  "packageManager": "yarn@4.12.0",
+  "type": "module",
+  "exports": {
+    "types": "./dist/emailsending/emailss.d.ts",
+    "default": "./dist/emailsending/emailss.js"
+  },
+  "dependencies": {
+    "@workspace/manageuser": "workspace:*",
+    "bull": "^4.16.5",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^8.0.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/nodemailer": "^8"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@workspace/manageuser",
+  "type": "module",
+  "exports": {
+    "types": "./dist/dbconnect/connect.d.ts",
+    "default": "./dist/dbconnect/connect.js"
+  },
+  "packageManager": "yarn@4.12.0",
+  "devDependencies": {
+    "@types/bcrypt": "^6",
+    "@types/express": "^5.0.6"
+  },
+  "dependencies": {
+    "@workspace/emailservice": "workspace:*",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0"
+  }
+}
