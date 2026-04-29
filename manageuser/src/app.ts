@@ -2,6 +2,7 @@ import express from 'express';
 import connectdb from './dbconnect/connect.js'
 import router from './routes/router.js';
 import "./BG/taskqueueprocess.js"
+import helmet from 'helmet';
 
 
 const app=express();
@@ -10,6 +11,7 @@ const app=express();
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
+app.use(helmet())
 app.use("/apis",router)
 
 app.listen(3000,async()=>{

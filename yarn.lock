@@ -220,6 +220,7 @@ __metadata:
     bcrypt: "npm:^6.0.0"
     dotenv: "npm:^17.4.2"
     express: "npm:^5.2.1"
+    helmet: "npm:^8.1.0"
     mongodb: "npm:^7.2.0"
   languageName: unknown
   linkType: soft
@@ -654,6 +655,13 @@ __metadata:
   dependencies:
     function-bind: "npm:^1.1.2"
   checksum: 10c0/f5eb28c3fd0d3e4facd821c1eeee3836c37b70ab0b0fc532e8a39976e18fef43652415dadc52f8c7a5ff6d5ac93b7bef128789aa6f90f4e9b9a9083dce74ab38
+  languageName: node
+  linkType: hard
+
+"helmet@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "helmet@npm:8.1.0"
+  checksum: 10c0/94d3a7ebc88dbda1421635bdf33f00724adb5252269e93c5ab296ec0db11336d01265659ad3739ab1a1e881fb23a686ff7e788aac6a5fb929285134f157df763
   languageName: node
   linkType: hard
 
